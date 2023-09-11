@@ -4,8 +4,10 @@
 
 ## Introduction
 
-该项目使用C语言编写了一个linux系统shell的类似程序。代码底层用到了C语言有关linux系统调用的相关库与函数。
+This project writes a linux system shell-like program in C language. And the main file is `myshell.c`。In addtion,these codes use the relevant libraries and functions of C regarding linux system calls.
 
-该程序应在linux系统中运行，运行指令和linux shell没有差别，具体手册可见readme文件。
+The program should be run in linux, and the running instructions are not different from the linux shell, the specific manual can be found in the readme file in the folder.
 
-在该代码文件夹下，存在一个README文件简单介绍了该项目的使用方法，同时有一个pdf文件简单介绍了项目的使用背景和基础内容。myshell.c文件即是项目主要文件，`env and test`文件夹中主要包括了一些用于项目测试和基础架构的代码。
+Under the code folder, there is a README file that briefly describes how to use the program, and a pdf file（`Document.pdf`） that briefly describes the background and basics of the program. myshell.c is the main file of the program, and the `env and test` folder contains some code that is used to test the program and the infrastructure of the program.
+
+If you want to use this program,the only thing is to use the `make` in the project folder, then you can get a executable program。 
